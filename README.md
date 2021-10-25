@@ -1,30 +1,28 @@
 <h1 align="center">RSS Reader Application</h1>
 
-### Aplikasi ini dibuat untuk memenuhi [test pemrograman](https://github.com/sonarid/programming-test-1) sebagai Junior Programmer di [Sonar Platform](https://www.sonarplatform.com/)
-
-### Spesifikasi Program
-- Dibuat dengan menggunakan bahasa pemrograman PHP dan database MySQL
-- Menggunakan RSS Feed Portal Berita [vice.com](https://www.vice.com/id/rss?locale=id_id)
-- Menampilkan List All Articles berupa:
+### Spesification Program
+- Built using `PHP` and `MySQL` database
+- Using RSS Feed from [vice.com](https://www.vice.com/id/rss?locale=id_id) news portal
+- Displays a list of all articles:
   - Title,
   - Published Date,
-  - Aksi untuk melihat details article
-- Menampillan Details Article berupa:
-  - URL
-  - Judul
-  - Waktu Tayang
-  - Konten Lengkap
+  - Action to view article details
+- Displays Article Details:
+  - URL,
+  - Title,
+  - Published Time,
+  - Full Content
 
-### Cara menggunakan? (Tutorial menjalankan menggunakan XAMPP)
-- Gunakan tools XAMPP dan mengaktifkan module Apache, dan MySQL
-- Pindahkan folder `rssreader` ke dalam folder `xampp/htdocs`
-- Masuk PHPMyAdmin untuk membuat database baru dan import `rssreader.sql` yang terdapat pada folder database 
-- Setelah berhasil import, buka file db.php, kemudian atur `dbname` sesuai dengan nama database yang dibuat
-- Atur juga file action.php dan ubah nama rssreader sesuai dengan nama database yang dibuat
-- Jalankan file index.php di browser dengan mengunjungi [localhost/rssreader](https://localhost/rssreader)
-- Note: pastikan koneksi internet aktif
+### How to run on Local Machine? (Example using XAMPP)
+- Use XAMPP tools and activate `Apache` and `MySQL` modules
+- Move the `rssreader` folder into the `xampp/htdocs` folder
+- Open `PHPMyAdmin` to create a new database and import `rssreader.sql` contained in the database folder
+- After a successful import, open the `db.php` file, then set `dbname` according to the database name created
+- Set the `action.php` file and change the name of `rssreader` according to the name of the database created
+- Run the `index.php` file in the browser by visiting [localhost/rssreader](https://localhost/rssreader)
+- Note: make sure the internet connection is active
 
-### Teknologi yang digunakan
+### Technology used
 - PHP-OOP,
 - PDO-MySQL,
 - Ajax,
